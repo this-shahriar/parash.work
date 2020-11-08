@@ -1,5 +1,47 @@
+@import "~antd/dist/antd.css";
+
 $backgroundColor: #2ecc71;
 
 .app {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-y: auto;
+}
+
+body {
   background-color: $backgroundColor;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+h4 {
+  font-size: 1.3rem;
+  margin: 0;
+  line-height: 1.8;
+}
+h5 {
+  font-size: 1rem;
+}
+p {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.space {
+  padding: 2rem;
+}
+
+.ant-divider {
+  margin: 0.5rem 0;
 }

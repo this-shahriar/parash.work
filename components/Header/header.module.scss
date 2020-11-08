@@ -1,0 +1,24 @@
+.header-wrapper {
+  background-color: #fff;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1rem;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    text-align: start;
+    padding: 0;
+    li {
+      margin: 0 1rem 0 0;
+      list-style: none;
+      text-align: start;
+    }
+  }
+  .selected {
+    font-weight: bold;
+  }
+}

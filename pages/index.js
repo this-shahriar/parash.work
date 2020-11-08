@@ -1,9 +1,13 @@
-import HelloWorld from '../components/hello-world'
+import { Header } from "../components/Header";
+import { Intro } from "../components/Intro";
 
 export default function Home() {
   return (
     <div className="app">
-      <HelloWorld />
+      <Header />
+      <div className="container">
+        <Intro />
+      </div>
     </div>
-  )
+  );
 }

@@ -1,0 +1,12 @@
+.intro-wrapper {
+  padding: 12rem 1rem;
+  @media (max-width: 600px) {
+    padding: 8rem 1rem;
+  }
+  .about-section {
+    width: 70%;
+    @media (max-width: 600px) {
+      width: 90%;
+    }
+  }
+}
