@@ -1,12 +1,36 @@
 .intro-wrapper {
-  padding: 12rem 1rem;
+  padding: 6rem 1rem;
   @media (max-width: 600px) {
-    padding: 8rem 1rem;
+    padding: 4rem 1rem;
   }
   .about-section {
-    width: 70%;
+    width: 100%;
     @media (max-width: 600px) {
       width: 90%;
+    }
+  }
+  .hello-world {
+    width: fit-content;
+    padding: 0.2rem 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fafafa;
+    h5 {
+      margin: 0;
+    }
+  }
+  .connect-wrapper {
+    display: flex;
+    flex-direction: row;
+    .connect {
+      font-size: 3rem;
+      padding-top: 1rem;
+      margin-right: 1rem;
+      cursor: pointer;
+      transition: all linear 0.2s;
+      &:hover {
+        transform: scale(1.08);
+      }
     }
   }
 }

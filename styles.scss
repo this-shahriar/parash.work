@@ -1,17 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;700&display=swap");
 @import "~antd/dist/antd.css";
 
 $backgroundColor: #2ecc71;
+$codeBg: #8f8e93;
+
+html {
+  scroll-behavior: smooth;
+}
 
 .app {
   width: 100vw;
   height: 100vh;
   overflow-y: hidden;
   overflow-y: auto;
+  position: relative;
 }
 
 body {
   background-color: $backgroundColor;
   margin: 0;
+  font-family: "Source Code Pro";
 }
 
 h1 {
