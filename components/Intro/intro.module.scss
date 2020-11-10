@@ -33,4 +33,14 @@
       }
     }
   }
+  .anim-svg {
+    padding: 1rem;
+    display: flex;
+    object {
+      width: 20rem;
+      margin: auto;
+      object-fit: cover;
+      padding-bottom: 1rem;
+    }
+  }
 }

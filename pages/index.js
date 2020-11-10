@@ -4,7 +4,7 @@ import { Intro } from "../components/Intro";
 export default function Home() {
   return (
     <div className="app">
-      <Header />
+      {/* <Header /> */}
       <div className="container">
         <Intro />
       </div>

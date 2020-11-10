@@ -17,7 +17,7 @@ export const Intro = () => {
           <div className={styles["hello-world"]}>
             <h5>{`> Hello world`}</h5>
           </div>
-          <h1>Luke Skywalker</h1>
+          <h1>Shahriar Hasan Parash</h1>
           <h4>Front-end developer | Visual designer</h4>
           <h5>
             <EnvironmentOutlined /> <span>Dhaka, Bangladesh</span>
@@ -74,6 +74,11 @@ export const Intro = () => {
                 className={styles["connect"]}
               />
             </div>
+          </div>
+        </Col>
+        <Col lg={10} md={5} xs={0}>
+          <div className={styles["anim-svg"]}>
+            <object type="image/svg+xml" data="/static/anim.svg"></object>
           </div>
         </Col>
       </Row>
