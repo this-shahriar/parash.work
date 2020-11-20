@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Luke Sky Walker</title>
+        <title>Shahriar Hasan Parash</title>
       </Head>
       <div className="app">
         {/* <Header /> */}
