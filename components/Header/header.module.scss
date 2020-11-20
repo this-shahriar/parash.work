@@ -1,24 +1,27 @@
 .header-wrapper {
-  background-color: #fff;
+  background-color: gray;
   position: fixed;
-  width : 100%;
+  width : 100vw;
   height: 3rem;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 0 1rem;
   z-index: 1;
   ul {
+    width : 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0;
-    text-align: start;
+    justify-content: center;
+    // margin: auto;
+    text-align: center;
     padding: 0;
     li {
       margin: 0 1rem 0 0;
       list-style: none;
-      text-align: start;
+      text-align: center;
     }
   }
   .selected {

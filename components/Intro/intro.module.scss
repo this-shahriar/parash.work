@@ -1,46 +1,38 @@
-.intro-wrapper {
-  padding: 6rem 1rem;
-  @media (max-width: 600px) {
-    padding: 4rem 1rem;
+$accent: #5e091a;
+.intro_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // background-color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+  h1,
+  h4 {
+    color: $accent;
+    text-align: center;
   }
-  .about-section {
-    width: 100%;
-    @media (max-width: 600px) {
-      width: 90%;
+
+  .light {
+    h1,
+    h4 {
+      color: #f3f3f3;
+      transform: scale(1.15);
     }
   }
-  .hello-world {
-    width: fit-content;
-    padding: 0.2rem 0.8rem;
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    background-color: #fafafa;
-    h5 {
-      margin: 0;
-    }
-  }
-  .connect-wrapper {
-    display: flex;
-    flex-direction: row;
+
+  .connect_wrapper {
+    position: absolute;
+    top: 70%;
     .connect {
-      font-size: 3rem;
-      padding-top: 1rem;
-      margin-right: 1rem;
-      cursor: pointer;
-      transition: all linear 0.2s;
+      font-size: 2.3rem;
+      margin: 0 1rem;
+      color: $accent;
       &:hover {
-        transform: scale(1.08);
+        transform: scale(1.1);
       }
-    }
-  }
-  .anim-svg {
-    padding: 1rem;
-    display: flex;
-    object {
-      width: 20rem;
-      margin: auto;
-      object-fit: cover;
-      padding-bottom: 1rem;
     }
   }
 }
